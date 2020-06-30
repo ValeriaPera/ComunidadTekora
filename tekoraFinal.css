@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+header {
+  background-image: url(images/imagen_nav.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:100vh;
+}
+.img-logo {
+  width: 300px;
+  height: 300px;
+}
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5% 5%;
+}
+.nav {
+  list-style: none;
+  display: flex;
+}
+
+.nav_item {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 5px;
+}
+.nav_item:hover {
+  background-color: #98a668;
+}
+.header_description {  
+  margin-left: 15%;
+    font-size: 2rem;
+  font-weight: 500;
+  color: #7a8c3a;
+
+}
+
+main {
+  margin: 5%
+}
+.comunidad, .events, .blog, .contact {
+  display: flex;
+  height: 100vh;
+}
+.left, .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.comunidad-img, .events-img, .blog-img {
+  width: 100%;
+  padding: 20px;
+}
+.comunidad-text, .events-text, .blog-text, .form-container, .blog-form, .contact_text {
+  padding:50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text_title  {
+text-align: center;
+margin-bottom: 2rem;
+font-size: 2rem;
+ color: #7a8c3a;
+}
+.text_description {
+  text-align: justify;
+  color: #3e4d28;
+  font-size: 20px;
+}
+form, .form_name, .form_email {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #3e4d28;
+
+  
+}
+.blog-form_button {
+  font-size: 1rem;
+  background-color: #98a668;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+
+}
+.suscription-input {
+  width: 30vw;
+  color: #3e4d28;
+  padding: 15px;
+  margin-top: 10px;
+  border:1px solid #7a8c3a;
+}
+.contact {
+align-items: baseline;
+
+}
+.contact-info {
+  flex-direction: column;
+}
+.contact_info_item{
+  margin: 2rem 0;
+  font-size: 20px;
+  color: #3e4d28;
+  
+}
+.contact_mail {
+  text-decoration: none;
+  color: #3e4d28;
+}
+.contact_icon {
+  margin-right: 1.5rem;
+  height: 25px;
+  width: 25px;
+
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.media-links> a {
+  margin: 0 20px;
+  font-size: 2rem;
+  color: #7a8c3a;
+
+}
+
+.subir {
+ width:100px;
+ height: 100px;
+ border-radius: 50%;
+ background-color: #7a8c3a;
+ position: fixed;
+ bottom: 50px;
+ right: 50px;
+ text-align: center;
+ font-size: 20px;
+ line-height: 100px;
+ }
+
+ .subir a {
+ color: white;
+ text-decoration: none;
+ }
+
+
